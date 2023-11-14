@@ -1,0 +1,423 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  
+
+}
+
+a,a:hover{
+  text-decoration: none;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+.header-section{
+  background: darkblue;
+}
+
+.header-section img{
+  width: 20%;
+  height: auto;
+    margin-right: 11px;
+}
+
+.header-section .nav-link {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: white !important;
+  transition: 0.5s;
+ word-spacing: 9px;
+}
+
+
+.header-section .nav-link:hover{
+  color:yellow !important;
+  transition: 0.5s;
+}
+
+
+.header-section li{
+  color: white;
+  padding: 3px;
+  transition: 0.5s;
+  margin-right: 11px;
+}
+
+.header-section li i{
+     margin-top: 8px;
+    font-size: 23px;
+   word-spacing: 9px;
+}
+
+.header-section li i:hover{
+  color: yellow;
+  transition: 0.5s;
+}
+
+
+
+
+
+.banner-section{
+    background: darkblue;
+}
+
+.banner-section h1{
+  font-size: 60px;
+  font-weight: 400;
+ color: white;
+ margin-top: 128px;
+
+}
+
+.banner-section h2{
+  font-size: 60px;
+  font-weight: 400;
+  color: white;
+ margin-bottom: 20px;
+}
+
+.banner-section p{
+ font-size: 16px;
+ color: white; 
+ margin-top: 30px;
+}
+
+.banner-section a{
+  text-transform: uppercase;
+  font-size: 16px;
+  color: black;
+  background: white;
+  padding: 10px 30px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.banner-section a:hover{
+  background: seagreen;
+  color: black;
+  transition: 0.5s;
+}
+
+.banner-section .image{
+    margin-bottom: 20px;
+}
+
+.banner-section .image img{
+  width: 95%;
+  height: 80vh;
+  margin: 10px 0px 0px 0px;
+
+}
+
+
+
+
+.offer-section{
+    background:lightgray;
+}
+
+.offer-section h2{
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 55px;
+}
+
+.offer-section p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.offer-section .image-part{
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s;
+    text-align: center;
+    margin-bottom: 40px;
+      transition: 0.5s;
+}
+
+.offer-section .image-part:hover{
+  box-shadow: none;
+  transition: 0.5s;
+}
+.offer-section .image-part img{
+     width: 73%;
+    height: auto;
+    margin-top: 30px;
+
+}
+
+.offer-section h4{
+ font-size: 20px;
+  color: black;
+  margin-right: 15px;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.offer-section .prg p{
+     margin-top: 10px;
+    font-size: 16px;
+    padding-left: 48px;
+    text-align: center;
+    margin-bottom: 74px;
+    margin-right: 53px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+.Freatures-section{
+  background: floralwhite;
+}
+
+
+.Freatures-section h2{
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 55px;
+}
+
+.Freatures-section p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.Freatures-section .icon-area{
+    margin-top: -4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.Freatures-section .icon-area:hover{
+  box-shadow: none;
+  transition: 0.5s;
+
+}
+
+.Freatures-section .icon-area i{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+   
+}
+.Freatures-section .icon-area h4{
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.Freatures-section .icon-area p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    padding-bottom: 40px;
+    margin-right: 37px;
+    margin-left: 56px;
+}
+
+
+
+
+
+.form-section{
+  background: ghostwhite;
+}
+
+.form-section h2{
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 55px;
+}
+
+.form-section p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.form-section .form-area input{
+    width: 80%;
+    padding: 20px 0px;
+    background: transparent;
+    margin-bottom: 15px;
+    border: none;
+    color: black;
+    border-bottom: 1px solid darkgray;
+}
+
+
+.form-section .button {
+    margin-top: 30px;
+}
+
+.form-section .button .btn-primary{
+    padding: 8px 60px;
+    border-radius: 2px solid blue;
+    background: darkblue;
+    color: white;
+    border: blue;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.form-section .button .btn-primary:hover{
+  background: gray;
+  color: black;
+  transition: .5s;
+}
+
+.form-section .img{
+ 
+}
+
+.form-section .img img{
+  width: 80%;
+  height: auto;
+  margin-top: 40px;
+   margin-left: 50px;
+
+}
+
+
+.About-section{
+  background:whitesmoke;
+  padding: 50px;
+}
+
+.About-section img{
+    width: 80%;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 50px;
+
+}
+
+.About-section h2{
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 55px;
+}
+
+
+.About-section p{
+    text-align: justify;
+    margin-top: 36px;
+    font-size: 14px;
+}
+
+
+
+
+
+.footer-section {
+    background: lightgray;
+}
+
+
+.footer-section .image-part{
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.footer-section .image-part img{
+  width: 40%;
+  height: auto;
+}
+
+
+.footer-section h5{
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-right: 239px !important;
+}
+
+.footer-section ul{
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+ 
+}
+.footer-section ul li{
+
+}
+
+.footer-section .icon-part{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.footer-section .icon-part ul{
+
+}
+
+.footer-section .icon-part ul li{
+ display: inline-block;
+}
+
+
+.footer-section .icon-part ul li i{
+ font-size: 30px;
+ color: black;
+ letter-spacing: 15px;
+}
+
+.footer-section .icon-part ul li i:hover{
+  color: darkblue !important;
+}
+
+
+.footer-section .prag {
+ text-align: center;
+}
+
+.footer-section .prag p{
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
